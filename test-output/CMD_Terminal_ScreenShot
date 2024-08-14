@@ -1,0 +1,62 @@
+Microsoft Windows [Version 10.0.22631.3880]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\mezia\eclipse-workspace\FRAMEWORK_Design_Hybrid_Bootcamp>mvn test
+[INFO] Scanning for projects...
+[INFO]
+[INFO] --------< com.FRAMEWORK_Design_Hybrid:FRAMEWORK_Design_Hybrid >---------
+[INFO] Building FRAMEWORK_Design_Hybrid 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- resources:3.0.2:resources (default-resources) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- compiler:3.8.0:compile (default-compile) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Users\mezia\eclipse-workspace\FRAMEWORK_Design_Hybrid_Bootcamp\target\classes
+[INFO]
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to C:\Users\mezia\eclipse-workspace\FRAMEWORK_Design_Hybrid_Bootcamp\target\test-classes
+[INFO]
+[INFO] --- surefire:2.22.1:test (default-test) @ FRAMEWORK_Design_Hybrid ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 13, 2024 10:29:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 13, 2024 10:29:59 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.73. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 13, 2024 10:30:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 13, 2024 10:30:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.73. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 13, 2024 10:30:14 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 13, 2024 10:30:14 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.73. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.101 s - in TestSuite
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  28.437 s
+[INFO] Finished at: 2024-08-13T22:30:21-04:00
+[INFO] ------------------------------------------------------------------------
+
+C:\Users\mezia\eclipse-workspace\FRAMEWORK_Design_Hybrid_Bootcamp>
