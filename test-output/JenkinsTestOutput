@@ -1,0 +1,99 @@
+Started by user Meziane Kechabia
+Running as SYSTEM
+Building in workspace C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Meziane228Kechabia/Framework_Design_Hybrid_Bootcamp
+ > C:\Program Files\Git\bin\git.exe init C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp # timeout=10
+Fetching upstream changes from https://github.com/Meziane228Kechabia/Framework_Design_Hybrid_Bootcamp
+ > C:\Program Files\Git\bin\git.exe --version # timeout=10
+ > git --version # 'git version 2.44.0.windows.1'
+ > C:\Program Files\Git\bin\git.exe fetch --tags --force --progress -- https://github.com/Meziane228Kechabia/Framework_Design_Hybrid_Bootcamp +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > C:\Program Files\Git\bin\git.exe config remote.origin.url https://github.com/Meziane228Kechabia/Framework_Design_Hybrid_Bootcamp # timeout=10
+ > C:\Program Files\Git\bin\git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > C:\Program Files\Git\bin\git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+Checking out Revision 54a48428a2b42c286d90da6fab91c311d5fb067f (refs/remotes/origin/master)
+ > C:\Program Files\Git\bin\git.exe config core.sparsecheckout # timeout=10
+ > C:\Program Files\Git\bin\git.exe checkout -f 54a48428a2b42c286d90da6fab91c311d5fb067f # timeout=10
+Commit message: "pushing with new repo"
+First time build. Skipping changelog.
+Parsing POMs
+Discovered a new module com.FRAMEWORK_Design_Hybrid:FRAMEWORK_Design_Hybrid FRAMEWORK_Design_Hybrid
+Modules changed, recalculating dependency graph
+Established TCP socket on 56169
+[Framework_Design_Hybrid_Bootcamp] $ "C:\Program Files\Java\jdk-17/bin/java" -cp C:\Users\mezia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.14.jar;C:\Users\mezia\OneDrive\Desktop\Automation\MAVEN\apache-maven-3.9.6\boot\plexus-classworlds-2.7.0.jar;C:\Users\mezia\OneDrive\Desktop\Automation\MAVEN\apache-maven-3.9.6/conf/logging jenkins.maven3.agent.Maven35Main C:\Users\mezia\OneDrive\Desktop\Automation\MAVEN\apache-maven-3.9.6 C:\Users\mezia\.jenkins\war\WEB-INF\lib\remoting-3261.v9c670a_4748a_9.jar C:\Users\mezia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.14.jar C:\Users\mezia\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.14.jar 56169
+<===[JENKINS REMOTING CAPACITY]===>channel started
+Executing Maven:  -B -f C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\pom.xml install
+[INFO] Scanning for projects...
+[HUDSON] Collecting dependencies info
+[INFO] 
+[INFO] --------< com.FRAMEWORK_Design_Hybrid:FRAMEWORK_Design_Hybrid >---------
+[INFO] Building FRAMEWORK_Design_Hybrid 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.0.2:resources (default-resources) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:compile (default-compile) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 2 source files to C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\target\classes
+[INFO] 
+[INFO] --- resources:3.0.2:testResources (default-testResources) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.8.0:testCompile (default-testCompile) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\target\test-classes
+[INFO] 
+[INFO] --- surefire:2.22.1:test (default-test) @ FRAMEWORK_Design_Hybrid ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Aug 19, 2024 3:19:49 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 19, 2024 3:19:49 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 19, 2024 3:19:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 19, 2024 3:19:56 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Aug 19, 2024 3:20:02 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 127
+Aug 19, 2024 3:20:02 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 127.0.6533.119. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.328 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[JENKINS] Recording test results
+[INFO] 
+[INFO] --- jar:3.0.2:jar (default-jar) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Building jar: C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\target\FRAMEWORK_Design_Hybrid-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- install:2.5.2:install (default-install) @ FRAMEWORK_Design_Hybrid ---
+[INFO] Installing C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\target\FRAMEWORK_Design_Hybrid-0.0.1-SNAPSHOT.jar to C:\Users\mezia\.m2\repository\com\FRAMEWORK_Design_Hybrid\FRAMEWORK_Design_Hybrid\0.0.1-SNAPSHOT\FRAMEWORK_Design_Hybrid-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\pom.xml to C:\Users\mezia\.m2\repository\com\FRAMEWORK_Design_Hybrid\FRAMEWORK_Design_Hybrid\0.0.1-SNAPSHOT\FRAMEWORK_Design_Hybrid-0.0.1-SNAPSHOT.pom
+[WARNING] Attempt to (de-)serialize anonymous class org.jfrog.hudson.maven2.MavenDependenciesRecorder$1; see: https://jenkins.io/redirect/serialization-of-anonymous-classes/
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  27.777 s
+[INFO] Finished at: 2024-08-19T15:20:09-04:00
+[INFO] ------------------------------------------------------------------------
+Waiting for Jenkins to finish collecting data
+[JENKINS] Archiving C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\pom.xml to com.FRAMEWORK_Design_Hybrid/FRAMEWORK_Design_Hybrid/0.0.1-SNAPSHOT/FRAMEWORK_Design_Hybrid-0.0.1-SNAPSHOT.pom
+[JENKINS] Archiving C:\Users\mezia\.jenkins\workspace\Framework_Design_Hybrid_Bootcamp\target\FRAMEWORK_Design_Hybrid-0.0.1-SNAPSHOT.jar to com.FRAMEWORK_Design_Hybrid/FRAMEWORK_Design_Hybrid/0.0.1-SNAPSHOT/FRAMEWORK_Design_Hybrid-0.0.1-SNAPSHOT.jar
+channel stopped
+Finished: SUCCESS
